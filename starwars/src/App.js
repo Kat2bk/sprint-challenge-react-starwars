@@ -10,6 +10,7 @@ const App = () => {
       .get("https://swapi.co/api/people/")
       .then(response => {
         console.log("This is the data", response.data.results);
+        setData(response.data.results);
       })
       .catch(error => {
         console.log("we are unable to retrieve data", error);
