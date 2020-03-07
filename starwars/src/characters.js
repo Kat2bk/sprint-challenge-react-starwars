@@ -6,7 +6,9 @@ const Box = styled.div`
   padding: 5px;
   margin: 10px;
   border-radius: 10px;
-  border: 1px solid brown;
+  border: 1px solid yellow;
+  background-color: rgba(30, 20, 30, 0.4);
+  color: yellow;
 `;
 
 export default function Characters(props) {
